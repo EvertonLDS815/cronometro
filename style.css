@@ -49,8 +49,20 @@ footer {
 }
 .rs-el {
   display: flex;
-  gap: 5px;
+  gap: 8px;
 }
-.link-github {
+.links-footer {
   display: flex;
+}
+.links-footer img {
+  width: 35px;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-image: url(./imgs/back-image-mobile.jpg);
+  }
+  footer span {
+    font-size: 17px;
+  }
 }
